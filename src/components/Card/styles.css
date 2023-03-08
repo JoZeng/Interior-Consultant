@@ -1,0 +1,161 @@
+.container-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 16.9rem;
+}
+
+.card1 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  color: #ffffff;
+  margin-top: 13.8rem;
+}
+
+.card1 h2 {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 4.8rem;
+  line-height: 6.1rem;
+}
+
+.card1 p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  margin-bottom: 0.8rem;
+}
+
+.card1 span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+}
+
+.card1-subcard {
+  display: flex;
+  gap: 11px;
+}
+
+.card2-img img {
+  width: 737px;
+  height: 555px;
+}
+
+.card2-subcard {
+  width: 410px;
+  height: 189px;
+  position: relative;
+  left: 290px;
+  bottom: 80px;
+  background: #181719;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  padding: 1.8rem 0rem 0rem 3.1rem;
+}
+
+.subcard-perfil {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 38px;
+}
+
+.subcard-perfil img {
+  width: 50px;
+  height: 50px;
+  border-radius: 37px;
+}
+
+.subcard-namejob {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#name {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: #ffffff;
+}
+
+#job {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: #828282;
+}
+
+#perfiltext {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 3.1rem;
+  color: #ffffff;
+  margin-top: 2.5rem;
+}
+
+@media screen and (max-width: 375px) {
+  .container-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 3.8rem;
+  }
+
+  .card1 {
+    all: unset;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    color: #ffffff;
+  }
+
+  .card1 h2 {
+    font-size: 3.6rem;
+    line-height: 4.6rem;
+  }
+
+  .card1 p {
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+  }
+
+  .subcard-namejob {
+    gap: 0;
+  }
+
+  .card1 p {
+    margin-bottom: 0px;
+  }
+
+  .card2 {
+    padding-top: 2.07rem;
+  }
+
+  .card2-img img {
+    width: 351px;
+    height: 264.32px;
+  }
+
+  .card2-subcard {
+    width: 300px;
+    height: 138px;
+    position: relative;
+    left: 25px;
+    padding: 1.8rem 0rem 0rem 3.1rem;
+  }
+}
