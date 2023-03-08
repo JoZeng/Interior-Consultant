@@ -1,8 +1,11 @@
-.container-cards {
+main {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: auto;
   flex-direction: row;
-  justify-content: space-between;
-  padding-top: 16.9rem;
+  flex-wrap: wrap;
+  gap: 10%;
 }
 
 .card1 {
@@ -109,11 +112,12 @@
 }
 
 @media screen and (max-width: 375px) {
-  .container-cards {
+  main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding-top: 3.8rem;
+    flex: 0;
   }
 
   .card1 {

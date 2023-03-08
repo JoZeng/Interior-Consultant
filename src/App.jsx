@@ -8,9 +8,11 @@ function App() {
 
   return (
     <>
+    <div className='app'>
     <Header />
     <Card />
     <Footer />
+    </div>
     </>
   )
 }

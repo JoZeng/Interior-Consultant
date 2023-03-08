@@ -6,7 +6,7 @@ import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 export default function Card() {
   return (
     <>
-      <div className="container-cards">
+    <main className="main">
         <div className="card1">
           <h2>Modern interior</h2>
           <p>
@@ -37,7 +37,7 @@ export default function Card() {
               </span>           
           </div>
         </div>
-      </div>
+      </main>
     </>
   );
 }
